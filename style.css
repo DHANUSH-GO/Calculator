@@ -1,0 +1,60 @@
+body{
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    background-image: url('desktop-wallpaper-black-gradient-dark-gradient.jpg'); 
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgba(245, 245, 220, 0.5);
+}
+
+#calculator{
+    background: rgb(252, 246, 246);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display{
+    padding: 20px;
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;                      
+    background: rgb(23, 23, 23);
+    color: aliceblue;
+}
+#keys{
+    display: grid;                                   
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(134, 133, 131);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(39, 39, 39);
+}
+button:active{
+    background-color: rgb(39, 39, 39);
+}
+.operator{
+    background-color: rgb(255, 183, 0);
+}
+.operator:hover{
+background-color: rgb(255, 149, 0);
+}
